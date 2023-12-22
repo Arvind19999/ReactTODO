@@ -1,0 +1,80 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  /* border: 1px red solid; */
+}
+
+nav{
+  /* background-color: rgb(53, 58, 205); */
+  background-color: black;
+  color: white;
+  padding : 20px;
+  text-align: center;
+}
+
+.container{
+  background-color: rgb(224, 223, 216);
+  width: 70%;
+  margin: auto;
+  min-height: 100vh;
+  padding : 2vmax 4vmax;
+  box-sizing: border-box;
+}
+.container > h1{
+text-align: center;
+}
+.container > form{
+  display: flex;
+  flex-direction: column;
+}
+
+input,textarea,button{
+  padding : 20px;
+  outline : none;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 1rem;
+  border: 1px solid rgba(11, 11, 11, 0.256);
+}
+button{
+  border: none;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.task{
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  background-color: white;
+  border-radius: 5px ;
+}
+
+.task > div{
+  width: 100%;
+  margin: 20px;
+  align-items: center;
+}
+.task  span{
+  color: rgba(0, 0, 0, 0.479);
+  margin : 2px;
+  }
+
+.task button{
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  height: 30px;
+  width: 30px;
+  background-color : crimson
+}
+.task button:hover {
+  background-color: red;
+}
+
+  
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;0,900;1,100;1,500;1,900&display=swap');
